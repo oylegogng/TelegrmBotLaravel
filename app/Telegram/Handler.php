@@ -64,10 +64,6 @@ class Handler extends WebhookHandler
 
             $this->reply('Hello bruh');
         }
-        else if($text->value() == '/test')
-        {
-
-        }
         else{
             $this->reply('bullshit');
         }
